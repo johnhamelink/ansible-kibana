@@ -1,5 +1,12 @@
 ---
+# Set the user ansible will log in with
 user: ubuntu
+
+# Set the domain name kibana will resolve to - this is for the nginx configuration
 kibana_domain: log.example.com
+
+# Set the url to retrieve kibana from
 kibana_url: https://github.com/elasticsearch/kibana/archive/master.zip
+
+# Set the location of the elastic search database
 es_address: http://log.example.com/es/
