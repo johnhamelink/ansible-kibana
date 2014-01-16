@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: John Hamelink
+  license: MIT
+  min_ansible_version: 1.4.3
+  platforms:
+    - name: Ubuntu
+      versions:
+        - saucy
+        - precise
+  categories:
+    - monitoring
+  dependencies: []
